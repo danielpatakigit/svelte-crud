@@ -26,7 +26,6 @@ export const actions: Actions = {
 			return fail(500, { message: 'Could not create the article.' })
 		}
 
-		console.log('Inserted successfully')
 		return {
 			status: 201
 		}
